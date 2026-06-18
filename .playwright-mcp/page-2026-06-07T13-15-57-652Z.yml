@@ -1,0 +1,787 @@
+- generic [active] [ref=e1]:
+  - link "Logout" [ref=e2] [cursor=pointer]:
+    - /url: "#"
+  - text:    
+  - generic [ref=e3]:
+    - generic [ref=e4]: Welcome to Testers Talk!
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "Practice Page" [ref=e7] [cursor=pointer]
+        - button "Playwright TypeScript Course" [ref=e8] [cursor=pointer]
+        - button "Playwright JavaScript Course" [ref=e9] [cursor=pointer]
+        - button "Cypress Course" [ref=e10] [cursor=pointer]
+        - button "JavaScript Course" [ref=e11] [cursor=pointer]
+        - button "Postman Course" [ref=e12] [cursor=pointer]
+        - button "Rest Assured Course" [ref=e13] [cursor=pointer]
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - generic [ref=e17]: "Name: *"
+            - 'textbox "Name: *" [ref=e18]':
+              - /placeholder: Employee Name
+          - generic [ref=e19]:
+            - generic [ref=e20]: "Department: *"
+            - 'textbox "Department: *" [ref=e21]':
+              - /placeholder: Department
+          - generic [ref=e22]:
+            - generic [ref=e23]: "Date of Birth: *"
+            - 'textbox "Date of Birth: *" [ref=e24]'
+          - generic [ref=e25]:
+            - generic [ref=e26]: "Gender: *"
+            - 'combobox "Gender: *" [ref=e27]':
+              - option "Male" [selected]
+              - option "Female"
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]: "Checkboxes:"
+              - generic [ref=e32]:
+                - generic [ref=e33] [cursor=pointer]:
+                  - checkbox "Playwright" [ref=e34]
+                  - text: Playwright
+                - generic [ref=e35] [cursor=pointer]:
+                  - checkbox "Cypress" [ref=e36]
+                  - text: Cypress
+                - generic [ref=e37] [cursor=pointer]:
+                  - checkbox "Selenium" [ref=e38]
+                  - text: Selenium
+                - generic [ref=e39] [cursor=pointer]:
+                  - checkbox "JavaScript" [ref=e40]
+                  - text: JavaScript
+                - generic [ref=e41] [cursor=pointer]:
+                  - checkbox "Postman" [ref=e42]
+                  - text: Postman
+                - generic [ref=e43] [cursor=pointer]:
+                  - checkbox "Rest Assured" [ref=e44]
+                  - text: Rest Assured
+                - generic [ref=e45] [cursor=pointer]:
+                  - checkbox "API Testing" [ref=e46]
+                  - text: API Testing
+            - generic [ref=e47]:
+              - generic [ref=e48]: "Radio Buttons:"
+              - generic [ref=e49]:
+                - generic [ref=e50] [cursor=pointer]:
+                  - radio "India" [checked] [ref=e51]
+                  - text: India
+                - generic [ref=e52] [cursor=pointer]:
+                  - radio "United States" [ref=e53]
+                  - text: United States
+                - generic [ref=e54] [cursor=pointer]:
+                  - radio "Japan" [ref=e55]
+                  - text: Japan
+                - generic [ref=e56] [cursor=pointer]:
+                  - radio "Russia" [ref=e57]
+                  - text: Russia
+            - generic [ref=e58]:
+              - generic [ref=e59]: "Links:"
+              - generic [ref=e60]:
+                - link " Visit Testers Talk YouTube Channel" [ref=e61] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@testerstalk
+                  - generic [ref=e62]: 
+                  - text: Visit Testers Talk YouTube Channel
+                - link " Join LinkedIn Group" [ref=e63] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/groups/10393547/
+                  - generic [ref=e64]: 
+                  - text: Join LinkedIn Group
+                - link " Join Facebook Group" [ref=e65] [cursor=pointer]:
+                  - /url: https://www.facebook.com/groups/247868358996762
+                  - generic [ref=e66]: 
+                  - text: Join Facebook Group
+                - link " Connect on LinkedIn" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/bakkappa-n
+                  - generic [ref=e68]: 
+                  - text: Connect on LinkedIn
+            - generic [ref=e69]:
+              - generic [ref=e70]: "Alerts Popups:"
+              - generic [ref=e71]:
+                - button "Simple" [ref=e72] [cursor=pointer]
+                - button "Confirm" [ref=e73] [cursor=pointer]
+                - button "Prompt" [ref=e74] [cursor=pointer]
+            - generic [ref=e75]:
+              - generic [ref=e76]: "Iframe:"
+              - iframe [ref=e78]:
+                - generic [ref=f2e2]:
+                  - button "Playwright TypeScript Full Course" [ref=f2e3] [cursor=pointer]
+                  - button "Playwright JavaScript Full Course" [ref=f2e4] [cursor=pointer]
+                  - button "Cypress Full Course" [ref=f2e5] [cursor=pointer]
+                  - button "JavaScript For Beginners" [ref=f2e6] [cursor=pointer]
+                  - button "API Testing Full Course" [ref=f2e7] [cursor=pointer]
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - generic [ref=e81]: "Upload & Download File:"
+              - generic [ref=e82]: "Select file:"
+              - button "Select file:" [ref=e83]
+              - paragraph [ref=e84]: No file selected
+            - generic [ref=e85]:
+              - generic [ref=e86]: "Downloads:"
+              - generic [ref=e87]:
+                - link "Download Excel" [ref=e88] [cursor=pointer]:
+                  - /url: Downloads/TestersTalk_Excel.xlsx
+                - link "Download Word" [ref=e89] [cursor=pointer]:
+                  - /url: Downloads/TestersTalk_WordDoc.docx
+                - link "Download XML" [ref=e90] [cursor=pointer]:
+                  - /url: Downloads/TestersTalk_XML.xml
+                - link "Download PDF" [ref=e91] [cursor=pointer]:
+                  - /url: Downloads/TestersTalk_PDF.pdf
+            - generic [ref=e92]:
+              - generic [ref=e93]: "Drag and Drop:"
+              - generic [ref=e94]:
+                - generic [ref=e95]: Drag me
+                - generic [ref=e96]: Drop here
+            - generic [ref=e97]:
+              - generic [ref=e98]: "Mouse Hover:"
+              - link "Hover this link" [ref=e100] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e101]:
+              - generic [ref=e102]: "Auto Suggestions:"
+              - textbox "Search courses..." [ref=e104]
+        - button "Save" [ref=e106] [cursor=pointer]
+        - generic [ref=e107]:
+          - heading "Latest 10 Records" [level=3] [ref=e108]
+          - button "Clear All Rows" [ref=e109] [cursor=pointer]
+        - table [ref=e110]:
+          - rowgroup [ref=e111]:
+            - row "Name Department DOB Gender Technologies Country" [ref=e112]:
+              - columnheader "Name" [ref=e113]
+              - columnheader "Department" [ref=e114]
+              - columnheader "DOB" [ref=e115]
+              - columnheader "Gender" [ref=e116]
+              - columnheader "Technologies" [ref=e117]
+              - columnheader "Country" [ref=e118]
+          - rowgroup
+    - generic [ref=e119]:
+      - heading "Scrolling - Horizontal & Vertical" [level=2] [ref=e120]
+      - table [ref=e121]:
+        - rowgroup [ref=e122]:
+          - row "Course Title Preview Watch on YouTube" [ref=e123]:
+            - columnheader "Course Title" [ref=e124]
+            - columnheader "Preview" [ref=e125]
+            - columnheader "Watch on YouTube" [ref=e126]
+        - rowgroup [ref=e127]:
+          - row "Playwright TypeScript Course Playwright TypeScript Course Watch" [ref=e128]:
+            - cell "Playwright TypeScript Course" [ref=e129]
+            - cell "Playwright TypeScript Course" [ref=e130]:
+              - iframe [ref=e131]:
+                - generic "YouTube Video Player" [ref=f9e3]
+            - cell "Watch" [ref=e132]:
+              - link "Watch":
+                - /url: https://youtu.be/788GvvcfwTY?feature=shared
+          - row "Playwright JavaScript Course Playwright JavaScript Course Watch" [ref=e133]:
+            - cell "Playwright JavaScript Course" [ref=e134]
+            - cell "Playwright JavaScript Course" [ref=e135]:
+              - iframe [ref=e136]:
+                - generic "YouTube Video Player" [ref=f10e3]
+            - cell "Watch" [ref=e137]:
+              - link "Watch":
+                - /url: https://youtu.be/2poXBtifpzA?feature=shared
+          - row "Cypress Course Cypress Course Watch" [ref=e138]:
+            - cell "Cypress Course" [ref=e139]
+            - cell "Cypress Course" [ref=e140]:
+              - iframe [ref=e141]:
+                - generic [active] [ref=f11e1]:
+                  - generic "YouTube Video Player" [ref=f11e3]
+                  - generic [ref=f11e6]:
+                    - generic:
+                      - generic:
+                        - button "Hide player controls" [ref=f11e7] [cursor=pointer]
+                        - generic [ref=f11e9]:
+                          - generic:
+                            - generic [ref=f11e12]:
+                              - generic [ref=f11e14]:
+                                - generic [ref=f11e15]:
+                                  - link "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs" [ref=f11e16] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=oJV5whmzfZI
+                                  - link "Testers Talk" [ref=f11e17] [cursor=pointer]:
+                                    - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                    - generic [ref=f11e18]: Testers Talk
+                                - generic [ref=f11e19]:
+                                  - button [ref=f11e20] [cursor=pointer]
+                                  - generic [ref=f11e22]:
+                                    - generic: Testers Talk
+                                    - generic: 30K subscribers
+                              - generic [ref=f11e23]:
+                                - button "Mute" [ref=f11e25] [cursor=pointer]:
+                                  - img "Mute" [ref=f11e26]
+                                - button "Subtitles/CC turned off" [ref=f11e29] [cursor=pointer]:
+                                  - generic [ref=f11e32]:
+                                    - img
+                                - button "Playback Settings" [ref=f11e34] [cursor=pointer]:
+                                  - generic [ref=f11e37]:
+                                    - img
+                            - generic [ref=f11e38]:
+                              - generic:
+                                - button "Rewind 10 seconds"
+                                - generic:
+                                  - button "Play video":
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                - button "Fast forward 10 seconds"
+                          - generic:
+                            - generic:
+                              - generic [ref=f11e42]:
+                                - generic [ref=f11e44]:
+                                  - generic [ref=f11e45]:
+                                    - text: 0:00
+                                    - generic [ref=f11e46]: Time elapsed
+                                  - text: /
+                                  - generic [ref=f11e47]:
+                                    - text: 5:04:17
+                                    - generic [ref=f11e48]: Time duration 5 hours, 4 minutes, 17 seconds
+                                - generic [ref=f11e50]: Cypress Tutorial Full Course
+                              - button "Enter full screen" [ref=f11e54] [cursor=pointer]
+                          - slider "Seek slider" [ref=f11e58] [cursor=pointer]
+                          - generic [ref=f11e100]:
+                            - button "Share" [ref=f11e104] [cursor=pointer]:
+                              - generic [ref=f11e108]:
+                                - img
+                            - generic [ref=f11e112]:
+                              - button "More videos" [ref=f11e115] [cursor=pointer]:
+                                - generic [ref=f11e116]: More videos
+                              - link "Watch on YouTube" [ref=f11e123] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=oJV5whmzfZI
+                                - img [ref=f11e127]:
+                                  - generic [ref=f11e129]:
+                                    - img
+            - cell "Watch" [ref=e142]:
+              - link "Watch":
+                - /url: https://youtu.be/oJV5whmzfZI?feature=shared
+          - row "JavaScript For Beginners JavaScript For Beginners Watch" [ref=e143]:
+            - cell "JavaScript For Beginners" [ref=e144]
+            - cell "JavaScript For Beginners" [ref=e145]:
+              - iframe [ref=e146]:
+                - generic [active] [ref=f12e1]:
+                  - generic "YouTube Video Player" [ref=f12e3]
+                  - generic [ref=f12e6]:
+                    - generic:
+                      - generic:
+                        - button "Hide player controls" [ref=f12e7] [cursor=pointer]
+                        - generic [ref=f12e9]:
+                          - generic:
+                            - generic [ref=f12e12]:
+                              - generic [ref=f12e14]:
+                                - generic [ref=f12e15]:
+                                  - link "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners" [ref=f12e16] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=ACUMZ3OkExQ
+                                  - link "Testers Talk" [ref=f12e17] [cursor=pointer]:
+                                    - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                    - generic [ref=f12e18]: Testers Talk
+                                - generic [ref=f12e19]:
+                                  - button [ref=f12e20] [cursor=pointer]
+                                  - generic [ref=f12e22]:
+                                    - generic: Testers Talk
+                                    - generic: 30K subscribers
+                              - generic [ref=f12e23]:
+                                - button "Unmute" [ref=f12e25] [cursor=pointer]:
+                                  - img "Unmute" [ref=f12e26]
+                                - button "Subtitles/CC turned off" [ref=f12e29] [cursor=pointer]:
+                                  - generic [ref=f12e32]:
+                                    - img
+                                - button "Playback Settings" [ref=f12e34] [cursor=pointer]:
+                                  - generic [ref=f12e37]:
+                                    - img
+                            - generic [ref=f12e38]:
+                              - generic:
+                                - button "Rewind 10 seconds"
+                                - generic:
+                                  - button "Play video":
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                - button "Fast forward 10 seconds"
+                          - generic:
+                            - generic:
+                              - generic [ref=f12e42]:
+                                - generic [ref=f12e44]:
+                                  - generic [ref=f12e45]:
+                                    - text: 0:00
+                                    - generic [ref=f12e46]: Time elapsed
+                                  - text: /
+                                  - generic [ref=f12e47]:
+                                    - text: 4:30:58
+                                    - generic [ref=f12e48]: Time duration 4 hours, 30 minutes, 58 seconds
+                                - generic [ref=f12e50]: JavaScript Tutorial for beginners
+                              - button "Enter full screen" [ref=f12e54] [cursor=pointer]
+                          - slider "Seek slider" [ref=f12e58] [cursor=pointer]
+                          - generic [ref=f12e101]:
+                            - button "Share" [ref=f12e105] [cursor=pointer]:
+                              - generic [ref=f12e109]:
+                                - img
+                            - generic [ref=f12e113]:
+                              - button "More videos" [ref=f12e116] [cursor=pointer]:
+                                - generic [ref=f12e117]: More videos
+                              - link "Watch on YouTube" [ref=f12e124] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=ACUMZ3OkExQ
+                                - img [ref=f12e128]:
+                                  - generic [ref=f12e130]:
+                                    - img
+            - cell "Watch" [ref=e147]:
+              - link "Watch":
+                - /url: https://youtu.be/ACUMZ3OkExQ?feature=shared
+          - row "Postman Course Postman Course Watch" [ref=e148]:
+            - cell "Postman Course" [ref=e149]
+            - cell "Postman Course" [ref=e150]:
+              - iframe [ref=e151]:
+                - generic [active] [ref=f13e1]:
+                  - generic "YouTube Video Player" [ref=f13e3]
+                  - generic [ref=f13e6]:
+                    - generic:
+                      - generic:
+                        - button "Hide player controls" [ref=f13e7] [cursor=pointer]
+                        - generic [ref=f13e9]:
+                          - generic:
+                            - generic [ref=f13e12]:
+                              - generic [ref=f13e14]:
+                                - generic [ref=f13e15]:
+                                  - link "API Testing Postman Tutorial Full Course 2024" [ref=f13e16] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo
+                                  - link "Testers Talk" [ref=f13e17] [cursor=pointer]:
+                                    - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                    - generic [ref=f13e18]: Testers Talk
+                                - generic [ref=f13e19]:
+                                  - button [ref=f13e20] [cursor=pointer]
+                                  - generic [ref=f13e22]:
+                                    - generic: Testers Talk
+                                    - generic: 30K subscribers
+                              - generic [ref=f13e23]:
+                                - button "Unmute" [ref=f13e25] [cursor=pointer]:
+                                  - img "Unmute" [ref=f13e26]
+                                - button "No captions are available for this video" [ref=f13e29] [cursor=pointer]:
+                                  - generic [ref=f13e32]:
+                                    - img
+                                - button "Playback Settings" [ref=f13e34] [cursor=pointer]:
+                                  - generic [ref=f13e37]:
+                                    - img
+                            - generic [ref=f13e38]:
+                              - generic:
+                                - button "Rewind 10 seconds"
+                                - generic:
+                                  - button "Play video":
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                - button "Fast forward 10 seconds"
+                          - generic:
+                            - generic:
+                              - generic [ref=f13e44]:
+                                - generic [ref=f13e45]:
+                                  - text: 0:00
+                                  - generic [ref=f13e46]: Time elapsed
+                                - text: /
+                                - generic [ref=f13e47]:
+                                  - text: 2:43:37
+                                  - generic [ref=f13e48]: Time duration 2 hours, 43 minutes, 37 seconds
+                              - button "Enter full screen" [ref=f13e52] [cursor=pointer]
+                          - slider "Seek slider" [ref=f13e56] [cursor=pointer]
+                          - generic [ref=f13e62]:
+                            - button "Share" [ref=f13e65] [cursor=pointer]:
+                              - generic [ref=f13e69]:
+                                - img
+                            - link "Watch on YouTube" [ref=f13e76] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo
+                              - img [ref=f13e80]:
+                                - generic [ref=f13e82]:
+                                  - img
+            - cell "Watch" [ref=e152]:
+              - link "Watch":
+                - /url: https://youtu.be/QKBa8lt5Wfo?feature=shared
+          - row "Rest Assured Course Rest Assured Course Watch" [ref=e153]:
+            - cell "Rest Assured Course" [ref=e154]
+            - cell "Rest Assured Course" [ref=e155]:
+              - iframe [ref=e156]:
+                - generic [active] [ref=f14e1]:
+                  - generic "YouTube Video Player" [ref=f14e3]
+                  - generic [ref=f14e6]:
+                    - generic:
+                      - generic:
+                        - button "Hide player controls" [ref=f14e7] [cursor=pointer]
+                        - generic [ref=f14e9]:
+                          - generic:
+                            - generic [ref=f14e12]:
+                              - generic [ref=f14e14]:
+                                - generic [ref=f14e15]:
+                                  - link "REST Assured API Testing Tutorial Crash Course 2024" [ref=f14e16] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=o9KJhGHl49M
+                                  - link "Testers Talk" [ref=f14e17] [cursor=pointer]:
+                                    - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                    - generic [ref=f14e18]: Testers Talk
+                                - generic [ref=f14e19]:
+                                  - button [ref=f14e20] [cursor=pointer]
+                                  - generic [ref=f14e22]:
+                                    - generic: Testers Talk
+                                    - generic: 30K subscribers
+                              - generic [ref=f14e23]:
+                                - button "Unmute" [ref=f14e25] [cursor=pointer]:
+                                  - img "Unmute" [ref=f14e26]
+                                - button "Subtitles/CC turned off" [ref=f14e29] [cursor=pointer]:
+                                  - generic [ref=f14e32]:
+                                    - img
+                                - button "Playback Settings" [ref=f14e34] [cursor=pointer]:
+                                  - generic [ref=f14e37]:
+                                    - img
+                            - generic [ref=f14e38]:
+                              - generic:
+                                - button "Rewind 10 seconds"
+                                - generic:
+                                  - button "Play video":
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                - button "Fast forward 10 seconds"
+                          - generic:
+                            - generic:
+                              - generic [ref=f14e42]:
+                                - generic [ref=f14e44]:
+                                  - generic [ref=f14e45]:
+                                    - text: 0:00
+                                    - generic [ref=f14e46]: Time elapsed
+                                  - text: /
+                                  - generic [ref=f14e47]:
+                                    - text: 4:06:41
+                                    - generic [ref=f14e48]: Time duration 4 hours, 6 minutes, 41 seconds
+                                - generic [ref=f14e50]: Rest Assured Tutorial API Testing Tutorial Full Course
+                              - button "Enter full screen" [ref=f14e54] [cursor=pointer]
+                          - slider "Seek slider" [ref=f14e58] [cursor=pointer]
+                          - generic:
+                            - generic [ref=f14e114]:
+                              - button "Share" [ref=f14e118] [cursor=pointer]:
+                                - generic [ref=f14e122]:
+                                  - img
+                              - generic [ref=f14e126]:
+                                - button "More videos" [ref=f14e129] [cursor=pointer]:
+                                  - generic [ref=f14e130]: More videos
+                                - link "Watch on YouTube" [ref=f14e137] [cursor=pointer]:
+                                  - /url: https://www.youtube.com/watch?v=o9KJhGHl49M
+                                  - img [ref=f14e141]:
+                                    - generic [ref=f14e143]:
+                                      - img
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=-HJjbich0dQ&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 4:13
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "REST Assured API Testing Full Course Overview 3 years ago":
+                                                - /url: https://www.youtube.com/watch?v=-HJjbich0dQ&feature=endscreen
+                                                - heading "REST Assured API Testing Full Course Overview" [level=3]
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 3 years ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=aqrxDxumKZQ&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 42:21
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "how to automate REST API testing using the Rest Assured framework with Java. 8 years ago":
+                                                - /url: https://www.youtube.com/watch?v=aqrxDxumKZQ&feature=endscreen
+                                                - heading "how to automate REST API testing using the Rest Assured framework with Java." [level=3]
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 8 years ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=Mbo_yhn7Gm4&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 1:03:07
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "House Agent Wahala | Tegwolo vs Nigerian House Agent | House of Ajebo Comedy Skit 2 days ago":
+                                                - /url: https://www.youtube.com/watch?v=Mbo_yhn7Gm4&feature=endscreen
+                                                - heading "House Agent Wahala | Tegwolo vs Nigerian House Agent | House of Ajebo Comedy Skit" [level=3]
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 2 days ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=WQ0NMTKqREo&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 20:36
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "Selenium with Python | Multiple Inputs in Functions Explained 21 hours ago":
+                                                - /url: https://www.youtube.com/watch?v=WQ0NMTKqREo&feature=endscreen
+                                                - heading "Selenium with Python | Multiple Inputs in Functions Explained" [level=3]
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 21 hours ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=aprMenLN8aY&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 2:32:25
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "API Testing Automation + Java + BDD Framework + Cucumber + Rest Assured + Maven in Intellij 2 years ago":
+                                                - /url: https://www.youtube.com/watch?v=aprMenLN8aY&feature=endscreen
+                                                - heading "API Testing Automation + Java + BDD Framework + Cucumber + Rest Assured + Maven in Intellij" [level=3]
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 2 years ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=bhckSppkkIY&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 2:53:31
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "WOMAN KING- PROSPEROUS OUTSTANDING RULER CHALLENGE UNMACTHED 2 days ago":
+                                                - /url: https://www.youtube.com/watch?v=bhckSppkkIY&feature=endscreen
+                                                - heading "WOMAN KING- PROSPEROUS OUTSTANDING RULER CHALLENGE UNMACTHED" [level=3]
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 2 days ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=dl2y2Gtjemg&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 1:35:59
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "Rest API Testing Sample Mini Project | Rest Assured in Java+TestNG+Maven | Git & Github 6 years ago":
+                                                - /url: https://www.youtube.com/watch?v=dl2y2Gtjemg&feature=endscreen
+                                                - heading "Rest API Testing Sample Mini Project | Rest Assured in Java+TestNG+Maven | Git & Github" [level=3]
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 6 years ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 3:27:51
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - 'link "API Testing Using Postman: Complete Crash Course for Beginners 2 years ago"':
+                                                - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                                - 'heading "API Testing Using Postman: Complete Crash Course for Beginners" [level=3]'
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 2 years ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=y6d6yjmQPk4&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 3:34:30
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - 'link "Rest Assured Masterclass: Build API Automation Framework (Part 1) #sdet #apitesting 1 year ago"':
+                                                - /url: https://www.youtube.com/watch?v=y6d6yjmQPk4&feature=endscreen
+                                                - 'heading "Rest Assured Masterclass: Build API Automation Framework (Part 1) #sdet #apitesting" [level=3]'
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 1 year ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=JJ7Tp7_fX4c&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 44:39
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "REST Assured API testing Beginner Tutorial | Part 1 - Getting Started 6 years ago":
+                                                - /url: https://www.youtube.com/watch?v=JJ7Tp7_fX4c&feature=endscreen
+                                                - heading "REST Assured API testing Beginner Tutorial | Part 1 - Getting Started" [level=3]
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 6 years ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=c6IjNpXul-4&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 41:16
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - 'link "Osuofia: Africa''s Most Beloved Comedian Finally Reveals What Fame Really Cost Him 19 hours ago"':
+                                                - /url: https://www.youtube.com/watch?v=c6IjNpXul-4&feature=endscreen
+                                                - 'heading "Osuofia: Africa''s Most Beloved Comedian Finally Reveals What Fame Really Cost Him" [level=3]'
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 19 hours ago
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=Orn8cP1yRJc&feature=endscreen
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 25:37
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "REST assured complete project on IntelliJ IDEA | Beginners Tutorial 4 years ago":
+                                                - /url: https://www.youtube.com/watch?v=Orn8cP1yRJc&feature=endscreen
+                                                - heading "REST assured complete project on IntelliJ IDEA | Beginners Tutorial" [level=3]
+                                                - generic:
+                                                  - generic:
+                                                    - generic: 4 years ago
+            - cell "Watch" [ref=e157]:
+              - link "Watch":
+                - /url: https://youtu.be/o9KJhGHl49M?feature=shared
+          - row "Specflow with Selenium Course Specflow with Selenium Course Watch" [ref=e158]:
+            - cell "Specflow with Selenium Course" [ref=e159]
+            - cell "Specflow with Selenium Course" [ref=e160]:
+              - iframe [ref=e161]:
+                - generic [active] [ref=f15e1]:
+                  - generic "YouTube Video Player" [ref=f15e3]
+                  - generic [ref=f15e6]:
+                    - generic:
+                      - generic:
+                        - button "Hide player controls" [ref=f15e7] [cursor=pointer]
+                        - generic [ref=f15e9]:
+                          - generic:
+                            - generic [ref=f15e12]:
+                              - generic [ref=f15e14]:
+                                - generic [ref=f15e15]:
+                                  - link "SpecFlow Selenium C# Tutorial Full Course | SpecFlow C# Tutorial | Selenium Automation Testing" [ref=f15e16] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=7xPcalwU76c
+                                  - link "Testers Talk" [ref=f15e17] [cursor=pointer]:
+                                    - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                    - generic [ref=f15e18]: Testers Talk
+                                - generic [ref=f15e19]:
+                                  - button [ref=f15e20] [cursor=pointer]
+                                  - generic [ref=f15e22]:
+                                    - generic: Testers Talk
+                                    - generic: 30K subscribers
+                              - generic [ref=f15e23]:
+                                - button "Mute" [ref=f15e25] [cursor=pointer]:
+                                  - img "Mute" [ref=f15e26]
+                                - button "Subtitles/CC turned off" [ref=f15e29] [cursor=pointer]:
+                                  - generic [ref=f15e32]:
+                                    - img
+                                - button "Playback Settings" [ref=f15e34] [cursor=pointer]:
+                                  - generic [ref=f15e37]:
+                                    - img
+                            - generic [ref=f15e38]:
+                              - generic:
+                                - button "Rewind 10 seconds"
+                                - generic:
+                                  - button "Play video":
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                - button "Fast forward 10 seconds"
+                          - generic:
+                            - generic:
+                              - generic [ref=f15e42]:
+                                - generic [ref=f15e44]:
+                                  - generic [ref=f15e45]:
+                                    - text: 0:00
+                                    - generic [ref=f15e46]: Time elapsed
+                                  - text: /
+                                  - generic [ref=f15e47]:
+                                    - text: 2:59:24
+                                    - generic [ref=f15e48]: Time duration 2 hours, 59 minutes, 24 seconds
+                                - generic [ref=f15e50]: Specflow Selenium C# Tutorial
+                              - button "Enter full screen" [ref=f15e54] [cursor=pointer]
+                          - slider "Seek slider" [ref=f15e58] [cursor=pointer]
+                          - generic [ref=f15e123]:
+                            - button "Share" [ref=f15e127] [cursor=pointer]:
+                              - generic [ref=f15e131]:
+                                - img
+                            - generic [ref=f15e135]:
+                              - button "More videos" [ref=f15e138] [cursor=pointer]:
+                                - generic [ref=f15e139]: More videos
+                              - link "Watch on YouTube" [ref=f15e146] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=7xPcalwU76c
+                                - img [ref=f15e150]:
+                                  - generic [ref=f15e152]:
+                                    - img
+            - cell "Watch" [ref=e162]:
+              - link "Watch":
+                - /url: https://youtu.be/7xPcalwU76c?feature=shared
+  - generic [ref=e163]:
+    - generic [ref=e164] [cursor=pointer]:
+      - text: Testers Talk Chatbot
+      - generic [ref=e165]:
+        - button "Minimize" [ref=e166]: –
+        - button "Maximize" [ref=e167]: ◻
+        - button "Close" [ref=e168]: ✕
+    - generic [ref=e170]: 👋 Hi! Type 'Hi' to start a conversation.
+    - generic [ref=e171]:
+      - textbox "Type your message..." [ref=e172]
+      - button "Send" [ref=e173] [cursor=pointer]
+  - generic [ref=e174]:
+    - link "Donate Now" [ref=e175] [cursor=pointer]:
+      - /url: Donate-Now.html
+    - text: "|"
+    - link "Test API's" [ref=e176] [cursor=pointer]:
+      - /url: API-Test-Playground.html
+    - text: "|"
+    - link "Medium Articles" [ref=e177] [cursor=pointer]:
+      - /url: Testers-Talk-Medium-Articles.html

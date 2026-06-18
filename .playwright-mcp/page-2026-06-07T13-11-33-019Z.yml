@@ -1,0 +1,77 @@
+- generic [ref=e1]:
+  - generic [ref=e2]: 07/06/2026 14:11:31
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=e5]
+      - paragraph [ref=e6]: Welcome to the Testers Talk Banking Application
+    - generic [ref=e7]:
+      - generic [ref=e9]:
+        - button "Transfers" [ref=e10] [cursor=pointer]
+        - button "Bill Payments" [ref=e11] [cursor=pointer]
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - link "💰 Account Management" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [ref=e19] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e69]:
+          - heading "💳 Quick Transactions" [level=2] [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e72]: "Transaction Type: *"
+            - 'combobox "Transaction Type: *" [ref=e73] [cursor=pointer]':
+              - option "Select transaction type"
+              - option "Deposit"
+              - option "Withdrawal"
+              - option "Transfer" [selected]
+            - generic [ref=e74]: "Amount ($): *"
+            - 'spinbutton "Amount ($): *" [ref=e75]': "1000"
+            - generic [ref=e99]:
+              - text: "Transfer to Account: *"
+              - 'textbox "Transfer to Account: *" [ref=e100]':
+                - /placeholder: Enter account number
+              - generic [ref=e129]: Please enter a valid account number (minimum 5 characters)
+            - generic [ref=e76]: "Description: *"
+            - 'textbox "Description: *" [ref=e77]':
+              - /placeholder: Transaction description
+              - text: Transfer funds to another account
+            - button "Submit" [active] [ref=e78] [cursor=pointer]
+      - text: "* * * * *"
+  - generic [ref=e33]:
+    - generic [ref=e34]: "Latest from Testers Talk :"
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - button "Previous Video" [ref=e38] [cursor=pointer]: ▲
+        - button "Next Video" [disabled] [ref=e39]: ▼
+      - generic [ref=e40]:
+        - generic [ref=e130]:
+          - generic [ref=e131]: "Cypress Tutorial Full Course:"
+          - link "Watch on YouTube" [ref=e132] [cursor=pointer]:
+            - /url: https://youtu.be/oJV5whmzfZI?feature=shared
+          - iframe [ref=e133]:
+            
+        - generic [ref=e134]:
+          - generic [ref=e135]: "JavaScript For Beginners:"
+          - link "Watch on YouTube" [ref=e136] [cursor=pointer]:
+            - /url: https://youtu.be/ACUMZ3OkExQ?feature=shared
+          - iframe [ref=e137]:
+            
+        - generic [ref=e138]:
+          - generic [ref=e139]: "API Testing Course PART-01:"
+          - link "Watch on YouTube" [ref=e140] [cursor=pointer]:
+            - /url: https://youtu.be/QKBa8lt5Wfo?feature=shared
+          - iframe [ref=e141]:
+            
+        - generic [ref=e142]:
+          - generic [ref=e143]: "API Testing Course PART-02:"
+          - link "Watch on YouTube" [ref=e144] [cursor=pointer]:
+            - /url: https://youtu.be/o9KJhGHl49M?feature=shared
+          - iframe [ref=e145]:
+            
+        - generic [ref=e146]:
+          - generic [ref=e147]: "API Testing Course PART-03:"
+          - link "Watch on YouTube" [ref=e148] [cursor=pointer]:
+            - /url: https://youtu.be/kay86__5eTg?feature=shared
+          - iframe [ref=e149]:
+            

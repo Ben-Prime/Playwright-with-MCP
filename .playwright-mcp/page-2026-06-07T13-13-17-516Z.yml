@@ -1,0 +1,165 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: 07/06/2026 14:13:17
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=e5]
+      - paragraph [ref=e6]: Welcome to the Testers Talk Banking Application
+    - generic [ref=e7]:
+      - generic [ref=e9]:
+        - button "Transfers" [ref=e10] [cursor=pointer]
+        - button "Bill Payments" [ref=e11] [cursor=pointer]
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - link "💰 Account Management" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [ref=e19] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e21]:
+          - text: "* * * *"
+          - generic [ref=e223]:
+            - heading "✅ Transaction Successful" [level=2] [ref=e224]
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e227]: ✅
+                - generic [ref=e228]:
+                  - heading "Transaction Completed Successfully!" [level=3] [ref=e229]
+                  - generic [ref=e230]:
+                    - generic [ref=e231]: "Transaction Type:"
+                    - generic [ref=e232]: Transfer
+                  - generic [ref=e233]:
+                    - generic [ref=e234]: "Amount:"
+                    - generic [ref=e235]: $1000.00
+                  - generic [ref=e236]:
+                    - generic [ref=e237]: "Description:"
+                    - generic [ref=e238]: Transfer funds to another account
+                  - generic [ref=e239]:
+                    - generic [ref=e240]: "Transaction Reference:"
+                    - generic [ref=e241]: TXN-1780837979357-896
+                  - generic [ref=e242]:
+                    - generic [ref=e243]: "Date & Time:"
+                    - generic [ref=e244]: 6/7/2026, 2:12:59 PM
+              - generic [ref=e245]:
+                - button "New Transaction" [ref=e246] [cursor=pointer]
+                - button "View History" [ref=e247] [cursor=pointer]
+      - text: "* * * * *"
+  - generic [ref=e33]:
+    - generic [ref=e34]: "Latest from Testers Talk :"
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - button "Previous Video" [disabled] [ref=e38]: ▲
+        - button "Next Video" [ref=e39] [cursor=pointer]: ▼
+      - generic [ref=e40]:
+        - generic [ref=e248]:
+          - generic [ref=e249]: "Playwright TypeScript Course PART-01:"
+          - link "Watch on YouTube" [ref=e250] [cursor=pointer]:
+            - /url: https://youtu.be/788GvvcfwTY?feature=shared
+          - iframe [ref=e251]:
+            - generic "YouTube Video Player" [ref=f197e3]:
+              - generic [ref=f197e6]:
+                - generic:
+                  - link "glovoapp.com This link opens in new tab" [ref=f197e7] [cursor=pointer]:
+                    - generic [ref=f197e8]: glovoapp.com
+                  - generic [ref=f197e9]:
+                    - generic [ref=f197e11]: Sponsored ·
+                    - generic [ref=f197e13]: 0:09
+                    - button "My Ad Center" [ref=f197e15] [cursor=pointer]:
+                      - generic [ref=f197e16]:
+                        - img
+        - generic [ref=e252]:
+          - generic [ref=e253]: "Playwright TypeScript Course PART-02:"
+          - link "Watch on YouTube" [ref=e254] [cursor=pointer]:
+            - /url: https://youtu.be/YfRazDhi9Fw?feature=shared
+          - iframe [ref=e255]:
+            - generic "YouTube Video Player" [ref=f198e3]:
+              - generic [ref=f198e6]:
+                - generic:
+                  - link "glovoapp.com This link opens in new tab" [ref=f198e7] [cursor=pointer]:
+                    - generic [ref=f198e8]: glovoapp.com
+                  - generic [ref=f198e9]:
+                    - generic [ref=f198e11]: Sponsored ·
+                    - generic [ref=f198e13]: 0:08
+                    - button "My Ad Center" [ref=f198e15] [cursor=pointer]:
+                      - generic [ref=f198e16]:
+                        - img
+        - generic [ref=e256]:
+          - generic [ref=e257]: "Playwright TypeScript Course PART-03:"
+          - link "Watch on YouTube" [ref=e258] [cursor=pointer]:
+            - /url: https://youtu.be/iGQ-qTLEPLw?feature=shared
+          - iframe [ref=e259]:
+            - generic "YouTube Video Player" [ref=f199e3]:
+              - generic [ref=f199e6]:
+                - generic:
+                  - link "glovoapp.com This link opens in new tab" [ref=f199e7] [cursor=pointer]:
+                    - generic [ref=f199e8]: glovoapp.com
+                  - generic [ref=f199e9]:
+                    - generic [ref=f199e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f199e13]: 0:08
+                    - button "My Ad Center" [ref=f199e15] [cursor=pointer]:
+                      - generic [ref=f199e16]:
+                        - img
+        - generic [ref=e260]:
+          - generic [ref=e261]: "Playwright TypeScript Course PART-04:"
+          - link "Watch on YouTube" [ref=e262] [cursor=pointer]:
+            - /url: https://youtu.be/D44k45N6S58?feature=shared
+          - iframe [ref=e263]:
+            - generic "YouTube Video Player" [ref=f200e3]:
+              - generic [ref=f200e6]:
+                - generic:
+                  - link "glovoapp.com This link opens in new tab" [ref=f200e7] [cursor=pointer]:
+                    - generic [ref=f200e8]: glovoapp.com
+                  - generic [ref=f200e9]:
+                    - generic [ref=f200e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f200e13]: 0:09
+                    - button "My Ad Center" [ref=f200e15] [cursor=pointer]:
+                      - generic [ref=f200e16]:
+                        - img
+        - generic [ref=e264]:
+          - generic [ref=e265]: "Playwright JavaScript Course PART-01:"
+          - link "Watch on YouTube" [ref=e266] [cursor=pointer]:
+            - /url: https://youtu.be/2poXBtifpzA?feature=shared
+          - iframe [ref=e267]:
+            - generic "YouTube Video Player" [ref=f201e3]:
+              - generic [ref=f201e6]:
+                - generic:
+                  - link "glovoapp.com This link opens in new tab" [ref=f201e7] [cursor=pointer]:
+                    - generic [ref=f201e8]: glovoapp.com
+                  - generic [ref=f201e9]:
+                    - generic [ref=f201e11]: Sponsored ·
+                    - generic [ref=f201e13]: 0:08
+                    - button "My Ad Center" [ref=f201e15] [cursor=pointer]:
+                      - generic [ref=f201e16]:
+                        - img
+        - generic [ref=e268]:
+          - generic [ref=e269]: "Playwright JavaScript Course PART-02:"
+          - link "Watch on YouTube" [ref=e270] [cursor=pointer]:
+            - /url: https://youtu.be/lM-lqPun9P8?feature=shared
+          - iframe [ref=e271]:
+            - generic "YouTube Video Player" [ref=f202e3]:
+              - generic [ref=f202e6]:
+                - generic:
+                  - link "glovoapp.com This link opens in new tab" [ref=f202e66] [cursor=pointer]:
+                    - generic [ref=f202e67]: glovoapp.com
+                  - generic [ref=f202e68]:
+                    - generic [ref=f202e70]: Sponsored 1 of 2 ·
+                    - generic [ref=f202e72]: 0:09
+                    - button "My Ad Center" [ref=f202e74] [cursor=pointer]:
+                      - generic [ref=f202e75]:
+                        - img
+        - generic [ref=e272]:
+          - generic [ref=e273]: "Playwright JavaScript Course PART-03:"
+          - link "Watch on YouTube" [ref=e274] [cursor=pointer]:
+            - /url: https://youtu.be/Exx2M5Pz06g?feature=shared
+          - iframe [ref=e275]:
+            - generic "YouTube Video Player" [ref=f203e3]:
+              - generic [ref=f203e6]:
+                - generic:
+                  - link "glovoapp.com This link opens in new tab" [ref=f203e7] [cursor=pointer]:
+                    - generic [ref=f203e8]: glovoapp.com
+                  - generic [ref=f203e9]:
+                    - generic [ref=f203e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f203e13]: 0:09
+                    - button "My Ad Center" [ref=f203e15] [cursor=pointer]:
+                      - generic [ref=f203e16]:
+                        - img

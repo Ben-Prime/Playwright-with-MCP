@@ -1,0 +1,75 @@
+- generic [ref=e1]:
+  - generic [ref=e2]: 07/06/2026 14:10:32
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=e5]
+      - paragraph [ref=e6]: Welcome to the Testers Talk Banking Application
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Transfers" [ref=e10] [cursor=pointer]
+          - button "Bill Payments" [ref=e11] [cursor=pointer]
+        - link "Logout" [ref=e12] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - link "💰 Account Management" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [active] [ref=e19] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e69]:
+          - heading "💳 Quick Transactions" [level=2] [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e72]: "Transaction Type: *"
+            - 'combobox "Transaction Type: *" [ref=e73] [cursor=pointer]':
+              - option "Select transaction type"
+              - option "Deposit" [selected]
+              - option "Withdrawal"
+              - option "Transfer"
+            - generic [ref=e74]: "Amount ($): *"
+            - 'spinbutton "Amount ($): *" [ref=e75]'
+            - text: "*"
+            - generic [ref=e76]: "Description: *"
+            - 'textbox "Description: *" [ref=e77]':
+              - /placeholder: Transaction description
+            - button "Submit" [ref=e78] [cursor=pointer]
+      - text: "* * * * *"
+  - generic [ref=e33]:
+    - generic [ref=e34]: "Latest from Testers Talk :"
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - button "Previous Video" [ref=e38] [cursor=pointer]: ▲
+        - button "Next Video" [disabled] [ref=e39]: ▼
+      - generic [ref=e40]:
+        - generic [ref=e79]:
+          - generic [ref=e80]: "Cypress Tutorial Full Course:"
+          - link "Watch on YouTube" [ref=e81] [cursor=pointer]:
+            - /url: https://youtu.be/oJV5whmzfZI?feature=shared
+          - iframe [ref=e82]:
+            - generic "YouTube Video Player" [ref=f83e3]
+        - generic [ref=e83]:
+          - generic [ref=e84]: "JavaScript For Beginners:"
+          - link "Watch on YouTube" [ref=e85] [cursor=pointer]:
+            - /url: https://youtu.be/ACUMZ3OkExQ?feature=shared
+          - iframe [ref=e86]:
+            - generic "YouTube Video Player" [ref=f84e3]
+        - generic [ref=e87]:
+          - generic [ref=e88]: "API Testing Course PART-01:"
+          - link "Watch on YouTube" [ref=e89] [cursor=pointer]:
+            - /url: https://youtu.be/QKBa8lt5Wfo?feature=shared
+          - iframe [ref=e90]:
+            - generic "YouTube Video Player" [ref=f85e3]
+        - generic [ref=e91]:
+          - generic [ref=e92]: "API Testing Course PART-02:"
+          - link "Watch on YouTube" [ref=e93] [cursor=pointer]:
+            - /url: https://youtu.be/o9KJhGHl49M?feature=shared
+          - iframe [ref=e94]:
+            - generic "YouTube Video Player" [ref=f86e3]
+        - generic [ref=e95]:
+          - generic [ref=e96]: "API Testing Course PART-03:"
+          - link "Watch on YouTube" [ref=e97] [cursor=pointer]:
+            - /url: https://youtu.be/kay86__5eTg?feature=shared
+          - iframe [ref=e98]:
+            - generic "YouTube Video Player" [ref=f87e3]

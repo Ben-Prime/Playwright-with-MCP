@@ -1,0 +1,385 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: 07/06/2026 14:12:44
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=e5]
+      - paragraph [ref=e6]: Welcome to the Testers Talk Banking Application
+    - generic [ref=e7]:
+      - generic [ref=e9]:
+        - button "Transfers" [ref=e10] [cursor=pointer]
+        - button "Bill Payments" [ref=e11] [cursor=pointer]
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - link "💰 Account Management" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [ref=e19] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e21]:
+          - text: "* * * *"
+          - generic [ref=e198]:
+            - heading "🔍 Transaction Confirmation" [level=2] [ref=e199]
+            - generic [ref=e200]:
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - generic [ref=e203]: "Transaction Type:"
+                  - generic [ref=e204]: Transfer
+                - generic [ref=e205]:
+                  - generic [ref=e206]: "Amount:"
+                  - generic [ref=e207]: $1000.00
+                - generic [ref=e208]:
+                  - generic [ref=e209]: "Description:"
+                  - generic [ref=e210]: Transfer funds to another account
+                - generic [ref=e211]:
+                  - generic [ref=e212]: "Transfer To Account:"
+                  - generic [ref=e213]: "9876543210"
+                - generic [ref=e214]:
+                  - generic [ref=e215]: "Current Balance:"
+                  - generic [ref=e216]: $10000.00
+                - generic [ref=e217]:
+                  - generic [ref=e218]: "New Balance After Transaction:"
+                  - generic [ref=e219]: $9000.00
+              - generic [ref=e220]:
+                - button "Back" [ref=e221] [cursor=pointer]
+                - button "Confirm" [ref=e222] [cursor=pointer]
+      - text: "* * * * *"
+  - generic [ref=e33]:
+    - generic [ref=e34]: "Latest from Testers Talk :"
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - button "Previous Video" [ref=e38] [cursor=pointer]: ▲
+        - button "Next Video" [disabled] [ref=e39]: ▼
+      - generic [ref=e40]:
+        - generic [ref=e178]:
+          - generic [ref=e179]: "Cypress Tutorial Full Course:"
+          - link "Watch on YouTube" [ref=e180] [cursor=pointer]:
+            - /url: https://youtu.be/oJV5whmzfZI?feature=shared
+          - iframe [ref=e181]:
+            - generic [active] [ref=f187e1]:
+              - generic "YouTube Video Player" [ref=f187e3]
+              - generic [ref=f187e6]:
+                - generic:
+                  - generic:
+                    - button "Show player controls" [ref=f187e65] [cursor=pointer]
+                    - generic [ref=f187e22]:
+                      - generic: Testers Talk
+                      - generic: 30K subscribers
+        - generic [ref=e182]:
+          - generic [ref=e183]: "JavaScript For Beginners:"
+          - link "Watch on YouTube" [ref=e184] [cursor=pointer]:
+            - /url: https://youtu.be/ACUMZ3OkExQ?feature=shared
+          - iframe [ref=e185]:
+            - generic [active] [ref=f188e1]:
+              - generic "YouTube Video Player" [ref=f188e3]
+              - generic [ref=f188e6]:
+                - generic:
+                  - generic:
+                    - button "Show player controls" [ref=f188e65] [cursor=pointer]
+                    - generic [ref=f188e22]:
+                      - generic: Testers Talk
+                      - generic: 30K subscribers
+        - generic [ref=e186]:
+          - generic [ref=e187]: "API Testing Course PART-01:"
+          - link "Watch on YouTube" [ref=e188] [cursor=pointer]:
+            - /url: https://youtu.be/QKBa8lt5Wfo?feature=shared
+          - iframe [ref=e189]:
+            - generic [active] [ref=f189e1]:
+              - generic "YouTube Video Player" [ref=f189e3]
+              - generic [ref=f189e6]:
+                - generic:
+                  - generic:
+                    - button "Show player controls" [ref=f189e65] [cursor=pointer]
+                    - generic [ref=f189e22]:
+                      - generic: Testers Talk
+                      - generic: 30K subscribers
+        - generic [ref=e190]:
+          - generic [ref=e191]: "API Testing Course PART-02:"
+          - link "Watch on YouTube" [ref=e192] [cursor=pointer]:
+            - /url: https://youtu.be/o9KJhGHl49M?feature=shared
+          - iframe [ref=e193]:
+            - generic [active] [ref=f190e1]:
+              - generic "YouTube Video Player" [ref=f190e3]
+              - generic [ref=f190e6]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f190e7] [cursor=pointer]
+                    - generic [ref=f190e9]:
+                      - generic:
+                        - generic [ref=f190e12]:
+                          - generic [ref=f190e14]:
+                            - generic [ref=f190e15]:
+                              - link "REST Assured API Testing Tutorial Crash Course 2024" [ref=f190e16] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=o9KJhGHl49M
+                              - link "Testers Talk" [ref=f190e17] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                - generic [ref=f190e18]: Testers Talk
+                            - generic [ref=f190e19]:
+                              - button [ref=f190e20] [cursor=pointer]
+                              - generic [ref=f190e22]:
+                                - generic: Testers Talk
+                                - generic: 30K subscribers
+                          - generic [ref=f190e23]:
+                            - button "Unmute" [ref=f190e25] [cursor=pointer]:
+                              - img "Unmute" [ref=f190e26]
+                            - button "Subtitles/CC turned off" [ref=f190e65] [cursor=pointer]:
+                              - generic [ref=f190e32]:
+                                - img
+                        - generic [ref=f190e66]:
+                          - button "Rewind 10 seconds" [ref=f190e67] [cursor=pointer]
+                          - button "Pause video" [ref=f190e69] [cursor=pointer]:
+                            - generic [ref=f190e72]:
+                              - img
+                          - button "Fast forward 10 seconds" [ref=f190e73] [cursor=pointer]
+                      - button "Enter full screen" [ref=f190e40] [cursor=pointer]
+                      - slider "Seek slider" [ref=f190e44] [cursor=pointer]
+                      - generic:
+                        - link "Watch on YouTube" [ref=f190e55] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=o9KJhGHl49M
+                          - img [ref=f190e59]:
+                            - generic [ref=f190e61]:
+                              - img
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=-HJjbich0dQ&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 4:13
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "REST Assured API Testing Full Course Overview 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=-HJjbich0dQ&feature=endscreen
+                                            - heading "REST Assured API Testing Full Course Overview" [level=3]
+                                            - generic:
+                                              - generic:
+                                                - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=aqrxDxumKZQ&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 42:21
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "how to automate REST API testing using the Rest Assured framework with Java. 8 years ago":
+                                            - /url: https://www.youtube.com/watch?v=aqrxDxumKZQ&feature=endscreen
+                                            - heading "how to automate REST API testing using the Rest Assured framework with Java." [level=3]
+                                            - generic:
+                                              - generic:
+                                                - generic: 8 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=aprMenLN8aY&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 2:32:25
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "API Testing Automation + Java + BDD Framework + Cucumber + Rest Assured + Maven in Intellij 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=aprMenLN8aY&feature=endscreen
+                                            - heading "API Testing Automation + Java + BDD Framework + Cucumber + Rest Assured + Maven in Intellij" [level=3]
+                                            - generic:
+                                              - generic:
+                                                - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=WQ0NMTKqREo&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 20:36
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Selenium with Python | Multiple Inputs in Functions Explained 21 hours ago":
+                                            - /url: https://www.youtube.com/watch?v=WQ0NMTKqREo&feature=endscreen
+                                            - heading "Selenium with Python | Multiple Inputs in Functions Explained" [level=3]
+                                            - generic:
+                                              - generic:
+                                                - generic: 21 hours ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 3:27:51
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "API Testing Using Postman: Complete Crash Course for Beginners 2 years ago"':
+                                            - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                            - 'heading "API Testing Using Postman: Complete Crash Course for Beginners" [level=3]'
+                                            - generic:
+                                              - generic:
+                                                - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=dl2y2Gtjemg&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 1:35:59
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Rest API Testing Sample Mini Project | Rest Assured in Java+TestNG+Maven | Git & Github 6 years ago":
+                                            - /url: https://www.youtube.com/watch?v=dl2y2Gtjemg&feature=endscreen
+                                            - heading "Rest API Testing Sample Mini Project | Rest Assured in Java+TestNG+Maven | Git & Github" [level=3]
+                                            - generic:
+                                              - generic:
+                                                - generic: 6 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=bhckSppkkIY&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 2:53:31
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "WOMAN KING- PROSPEROUS OUTSTANDING RULER CHALLENGE UNMACTHED 2 days ago":
+                                            - /url: https://www.youtube.com/watch?v=bhckSppkkIY&feature=endscreen
+                                            - heading "WOMAN KING- PROSPEROUS OUTSTANDING RULER CHALLENGE UNMACTHED" [level=3]
+                                            - generic:
+                                              - generic:
+                                                - generic: 2 days ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=y6d6yjmQPk4&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 3:34:30
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "Rest Assured Masterclass: Build API Automation Framework (Part 1) #sdet #apitesting 1 year ago"':
+                                            - /url: https://www.youtube.com/watch?v=y6d6yjmQPk4&feature=endscreen
+                                            - 'heading "Rest Assured Masterclass: Build API Automation Framework (Part 1) #sdet #apitesting" [level=3]'
+                                            - generic:
+                                              - generic:
+                                                - generic: 1 year ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=KvaIE9QzfMU&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 1:36:25
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "LOVE, LIES & BROKEN MINDS | Emotional Nigerian Drama | BIMBO ADEMOYE, IK OGBONNA | 2026 Latest Movie 2 days ago":
+                                            - /url: https://www.youtube.com/watch?v=KvaIE9QzfMU&feature=endscreen
+                                            - heading "LOVE, LIES & BROKEN MINDS | Emotional Nigerian Drama | BIMBO ADEMOYE, IK OGBONNA | 2026 Latest Movie" [level=3]
+                                            - generic:
+                                              - generic:
+                                                - generic: 2 days ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=c6IjNpXul-4&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 41:16
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "Osuofia: Africa''s Most Beloved Comedian Finally Reveals What Fame Really Cost Him 19 hours ago"':
+                                            - /url: https://www.youtube.com/watch?v=c6IjNpXul-4&feature=endscreen
+                                            - 'heading "Osuofia: Africa''s Most Beloved Comedian Finally Reveals What Fame Really Cost Him" [level=3]'
+                                            - generic:
+                                              - generic:
+                                                - generic: 19 hours ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=Orn8cP1yRJc&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 25:37
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "REST assured complete project on IntelliJ IDEA | Beginners Tutorial 4 years ago":
+                                            - /url: https://www.youtube.com/watch?v=Orn8cP1yRJc&feature=endscreen
+                                            - heading "REST assured complete project on IntelliJ IDEA | Beginners Tutorial" [level=3]
+                                            - generic:
+                                              - generic:
+                                                - generic: 4 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link:
+                                      - /url: https://www.youtube.com/watch?v=JJ7Tp7_fX4c&feature=endscreen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic: 44:39
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "REST Assured API testing Beginner Tutorial | Part 1 - Getting Started 6 years ago":
+                                            - /url: https://www.youtube.com/watch?v=JJ7Tp7_fX4c&feature=endscreen
+                                            - heading "REST Assured API testing Beginner Tutorial | Part 1 - Getting Started" [level=3]
+                                            - generic:
+                                              - generic:
+                                                - generic: 6 years ago
+        - generic [ref=e194]:
+          - generic [ref=e195]: "API Testing Course PART-03:"
+          - link "Watch on YouTube" [ref=e196] [cursor=pointer]:
+            - /url: https://youtu.be/kay86__5eTg?feature=shared
+          - iframe [ref=e197]:
+            - generic [active] [ref=f191e1]:
+              - generic "YouTube Video Player" [ref=f191e3]
+              - generic [ref=f191e6]:
+                - generic:
+                  - generic:
+                    - button "Show player controls" [ref=f191e65] [cursor=pointer]
+                    - generic [ref=f191e22]:
+                      - generic: Testers Talk
+                      - generic: 30K subscribers

@@ -1,0 +1,70 @@
+These are the prompts used to generate this entire project:
+
+Prompt1 - Playwright Project setup
+Create a Playwright TypeScript test project using "npm init playwright@latest" command in the current folder
+
+Can you please make sure that tests are running successfully?
+
+Prompt2 - End-to-end test creation for banking application
+Generate a playwright typescript test for the following scenarios:
+- You are a playwright test generator.
+- You are given a scenario and you need to generate a playwright test for it.
+- DO NOT generate test code based on the scenario alone.
+- Use Playwright MCP to open the browser and interact with the site
+- Discover selectors and flows by live exploration, not by static code generation
+- Navigate to https://bakkappan.github.io/Testers-Talk-Practice-Site/
+- Enter username & password as TestersTalk
+- Select App Name as Banking and Login into the application
+- After login, verify:
+     - URL contains "Banking-Project-Demo.html"
+     - The page header shows "🏦 Sample Banking Application"
+     - Verify text as "Welcome to the Testers Talk Banking Application"
+- Click on Quick Transactions link
+- Select Transaction Type as Transfer
+- Enter all other mandatory fields then click on Submit button
+- Click on Confirm button
+- Note down Transaction Reference: number
+- Verify Transaction Reference: number in the Transaction History
+- Save generated test file as banking-test.spec.ts & test name as "Verify Quick Transactions Flow" in the tests directory
+- Execute the test file and iterate until the test passes
+- Include appropriate assertions to verify the expected behaviour
+- Structure tests properly with descriptive test titles and comments
+
+Technical details:
+- Use role-based selectors wherever possible(getByRole)
+- Add appropriate waiting for navigation after login
+- Add appropriate timeouts for assertions
+
+Prompt3 - Page Object Model refactoring
+- Let's convert test into page object model design pattern
+- Create a pages folder under root directory & add pages under this folder only
+- Create 4 pages - LoginPage, HomePage, QuickTransactionPage & TransactionHistoryPage then add abstractions methods in the respective pages
+- Create one BasePage which contains common actions for all the pages
+- Finally update the test with respect page object methods
+
+Prompt4 - Configuration management
+- Create a config.json file under root directory
+- Add URL, username, password & app name key-value pairs in the config.json file
+- Finally access all the property values in the test wherever it is required
+
+Prompt5 - Test data management
+- Create a test-data folder under root directory
+- Create a Transfer_TestData.json file under test-data folder
+- Keep all the transfer details in the Transfer_TestData.json in the key-values pairs
+- Finally access Transfer_TestData.json test data in test file
+
+Prompt6 - Advanced test generation using Playwright MCP Server without using application url, username/password etc.
+Write a Playwright typescript test using playwright mcp.
+1. You are a playwright test generator.
+2. DO NOT generate test code based on the scenario alone.
+3. Use Playwright MCP to open the browser and interact with the site
+4. Discover selectors and flows by live exploration, not by static code generation
+5. Add a new test as verify tab names in the homepage in the banking-test.spec.ts file
+6. Instantiate the LoginPage and HomePage page objects.
+7. Navigate to the login page using the URL from the config.
+8. Log in using credentials from the config.
+9. Verify that the home page loads successfully.
+10. Check that the Transfers & Bill Payment tabs are visible
+11. Save newly generated test under banking-test.spec.ts file
+12. Execute the test file and iterate until the test passes
+13. Make sure to use Playwright's best practices and page object model.

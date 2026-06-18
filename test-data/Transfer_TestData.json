@@ -1,0 +1,6 @@
+{
+  "transactionType": "Transfer",
+  "transferAccount": "9876543210",
+  "transactionAmount": "1000",
+  "transactionDescription": "Transfer funds to another account"
+}

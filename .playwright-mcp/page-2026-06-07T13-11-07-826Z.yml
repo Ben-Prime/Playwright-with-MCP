@@ -1,0 +1,305 @@
+- generic [ref=e1]:
+  - generic [ref=e2]: 07/06/2026 14:11:03
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=e5]
+      - paragraph [ref=e6]: Welcome to the Testers Talk Banking Application
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Transfers" [ref=e10] [cursor=pointer]
+          - button "Bill Payments" [ref=e11] [cursor=pointer]
+        - link "Logout" [ref=e12] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - link "💰 Account Management" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [active] [ref=e19] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e69]:
+          - heading "💳 Quick Transactions" [level=2] [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e72]: "Transaction Type: *"
+            - 'combobox "Transaction Type: *" [ref=e73] [cursor=pointer]':
+              - option "Select transaction type"
+              - option "Deposit"
+              - option "Withdrawal"
+              - option "Transfer" [selected]
+            - generic [ref=e74]: "Amount ($): *"
+            - 'spinbutton "Amount ($): *" [ref=e75]'
+            - generic [ref=e99]:
+              - text: "Transfer to Account: *"
+              - 'textbox "Transfer to Account: *" [ref=e100]':
+                - /placeholder: Enter account number
+            - generic [ref=e76]: "Description: *"
+            - 'textbox "Description: *" [ref=e77]':
+              - /placeholder: Transaction description
+            - button "Submit" [ref=e78] [cursor=pointer]
+      - text: "* * * * *"
+  - generic [ref=e33]:
+    - generic [ref=e34]: "Latest from Testers Talk :"
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - button "Previous Video" [disabled] [ref=e38]: ▲
+        - button "Next Video" [ref=e39] [cursor=pointer]: ▼
+      - generic [ref=e40]:
+        - generic [ref=e101]:
+          - generic [ref=e102]: "Playwright TypeScript Course PART-01:"
+          - link "Watch on YouTube" [ref=e103] [cursor=pointer]:
+            - /url: https://youtu.be/788GvvcfwTY?feature=shared
+          - iframe [ref=e104]:
+            - generic [active] [ref=f93e1]:
+              - generic "YouTube Video Player" [ref=f93e3]
+              - generic [ref=f93e7]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f93e8] [cursor=pointer]
+                    - generic [ref=f93e10]:
+                      - generic:
+                        - generic [ref=f93e13]:
+                          - generic [ref=f93e15]:
+                            - generic [ref=f93e16]:
+                              - link "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial" [ref=f93e17] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=788GvvcfwTY
+                              - link "Testers Talk" [ref=f93e18] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                - generic [ref=f93e19]: Testers Talk
+                            - generic [ref=f93e20]:
+                              - button [ref=f93e21] [cursor=pointer]
+                              - generic [ref=f93e23]:
+                                - generic: Testers Talk
+                                - generic: 30K subscribers
+                          - generic [ref=f93e24]:
+                            - button "Unmute" [ref=f93e26] [cursor=pointer]:
+                              - img "Unmute" [ref=f93e27]
+                            - button "No captions are available for this video" [ref=f93e30] [cursor=pointer]:
+                              - generic [ref=f93e33]:
+                                - img
+                        - generic [ref=f93e34]:
+                          - generic:
+                            - button "Rewind 10 seconds"
+                            - generic:
+                              - button "Play video":
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                            - button "Fast forward 10 seconds"
+                      - button "Enter full screen" [ref=f93e41] [cursor=pointer]
+                      - slider "Seek slider" [ref=f93e45] [cursor=pointer]
+                      - link "Watch on YouTube" [ref=f93e56] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=788GvvcfwTY
+                        - img [ref=f93e60]:
+                          - generic [ref=f93e62]:
+                            - img
+        - generic [ref=e105]:
+          - generic [ref=e106]: "Playwright TypeScript Course PART-02:"
+          - link "Watch on YouTube" [ref=e107] [cursor=pointer]:
+            - /url: https://youtu.be/YfRazDhi9Fw?feature=shared
+          - iframe [ref=e108]:
+            - generic [active] [ref=f94e1]:
+              - generic "YouTube Video Player" [ref=f94e3]
+              - generic [ref=f94e6]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f94e7] [cursor=pointer]
+                    - generic [ref=f94e9]:
+                      - generic:
+                        - generic [ref=f94e12]:
+                          - generic [ref=f94e14]:
+                            - generic [ref=f94e15]:
+                              - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial" [ref=f94e16] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=YfRazDhi9Fw
+                              - link "Testers Talk" [ref=f94e17] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                - generic [ref=f94e18]: Testers Talk
+                            - generic [ref=f94e19]:
+                              - button [ref=f94e20] [cursor=pointer]
+                              - generic [ref=f94e22]:
+                                - generic: Testers Talk
+                                - generic: 30K subscribers
+                          - generic [ref=f94e23]:
+                            - button "Unmute" [ref=f94e25] [cursor=pointer]:
+                              - img "Unmute" [ref=f94e26]
+                            - button "No captions are available for this video" [ref=f94e29] [cursor=pointer]:
+                              - generic [ref=f94e32]:
+                                - img
+                        - generic [ref=f94e33]:
+                          - generic:
+                            - button "Rewind 10 seconds"
+                            - generic:
+                              - button "Play video":
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                            - button "Fast forward 10 seconds"
+                      - button "Enter full screen" [ref=f94e40] [cursor=pointer]
+                      - slider "Seek slider" [ref=f94e44] [cursor=pointer]
+                      - link "Watch on YouTube" [ref=f94e55] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=YfRazDhi9Fw
+                        - img [ref=f94e59]:
+                          - generic [ref=f94e61]:
+                            - img
+        - generic [ref=e109]:
+          - generic [ref=e110]: "Playwright TypeScript Course PART-03:"
+          - link "Watch on YouTube" [ref=e111] [cursor=pointer]:
+            - /url: https://youtu.be/iGQ-qTLEPLw?feature=shared
+          - iframe [ref=e112]:
+            - generic [active] [ref=f95e1]:
+              - generic "YouTube Video Player" [ref=f95e3]
+              - generic [ref=f95e6]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f95e7] [cursor=pointer]
+                    - generic [ref=f95e9]:
+                      - generic:
+                        - generic [ref=f95e12]:
+                          - generic [ref=f95e14]:
+                            - generic [ref=f95e15]:
+                              - link "#3 Mastering Playwright API Automation & Mocking with TypeScript | Playwright Automation Tutorials" [ref=f95e16] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=iGQ-qTLEPLw
+                              - link "Testers Talk" [ref=f95e17] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                - generic [ref=f95e18]: Testers Talk
+                            - generic [ref=f95e19]:
+                              - button [ref=f95e20] [cursor=pointer]
+                              - generic [ref=f95e22]:
+                                - generic: Testers Talk
+                                - generic: 30K subscribers
+                          - generic [ref=f95e23]:
+                            - button "Unmute" [ref=f95e25] [cursor=pointer]:
+                              - img "Unmute" [ref=f95e26]
+                            - button "No captions are available for this video" [ref=f95e29] [cursor=pointer]:
+                              - generic [ref=f95e32]:
+                                - img
+                        - generic [ref=f95e33]:
+                          - generic:
+                            - button "Rewind 10 seconds"
+                            - generic:
+                              - button "Play video":
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                            - button "Fast forward 10 seconds"
+                      - button "Enter full screen" [ref=f95e40] [cursor=pointer]
+                      - slider "Seek slider" [ref=f95e44] [cursor=pointer]
+                      - link "Watch on YouTube" [ref=f95e55] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=iGQ-qTLEPLw
+                        - img [ref=f95e59]:
+                          - generic [ref=f95e61]:
+                            - img
+        - generic [ref=e113]:
+          - generic [ref=e114]: "Playwright TypeScript Course PART-04:"
+          - link "Watch on YouTube" [ref=e115] [cursor=pointer]:
+            - /url: https://youtu.be/D44k45N6S58?feature=shared
+          - iframe [ref=e116]:
+            - generic [active] [ref=f96e1]:
+              - generic "YouTube Video Player" [ref=f96e3]
+              - generic [ref=f96e6]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f96e7] [cursor=pointer]
+                    - generic [ref=f96e9]:
+                      - generic:
+                        - generic [ref=f96e12]:
+                          - generic [ref=f96e14]:
+                            - generic [ref=f96e15]:
+                              - link "#4 Step-by-Step Guide To Integrate Playwright with CICD Tools(Jenkins,Azure DevOps & GitHub Actions)" [ref=f96e16] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=D44k45N6S58
+                              - link "Testers Talk" [ref=f96e17] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                - generic [ref=f96e18]: Testers Talk
+                            - generic [ref=f96e19]:
+                              - button [ref=f96e20] [cursor=pointer]
+                              - generic [ref=f96e22]:
+                                - generic: Testers Talk
+                                - generic: 30K subscribers
+                          - generic [ref=f96e23]:
+                            - button "Unmute" [ref=f96e25] [cursor=pointer]:
+                              - img "Unmute" [ref=f96e26]
+                            - button "No captions are available for this video" [ref=f96e29] [cursor=pointer]:
+                              - generic [ref=f96e32]:
+                                - img
+                        - generic [ref=f96e33]:
+                          - generic:
+                            - button "Rewind 10 seconds"
+                            - generic:
+                              - button "Play video":
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                            - button "Fast forward 10 seconds"
+                      - button "Enter full screen" [ref=f96e40] [cursor=pointer]
+                      - slider "Seek slider" [ref=f96e44] [cursor=pointer]
+                      - link "Watch on YouTube" [ref=f96e55] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=D44k45N6S58
+                        - img [ref=f96e59]:
+                          - generic [ref=f96e61]:
+                            - img
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Playwright JavaScript Course PART-01:"
+          - link "Watch on YouTube" [ref=e119] [cursor=pointer]:
+            - /url: https://youtu.be/2poXBtifpzA?feature=shared
+          - iframe [ref=e120]:
+            - generic "YouTube Video Player" [ref=f97e3]
+        - generic [ref=e121]:
+          - generic [ref=e122]: "Playwright JavaScript Course PART-02:"
+          - link "Watch on YouTube" [ref=e123] [cursor=pointer]:
+            - /url: https://youtu.be/lM-lqPun9P8?feature=shared
+          - iframe [ref=e124]:
+            - generic "YouTube Video Player" [ref=f98e3]
+        - generic [ref=e125]:
+          - generic [ref=e126]: "Playwright JavaScript Course PART-03:"
+          - link "Watch on YouTube" [ref=e127] [cursor=pointer]:
+            - /url: https://youtu.be/Exx2M5Pz06g?feature=shared
+          - iframe [ref=e128]:
+            - generic [active] [ref=f99e1]:
+              - generic "YouTube Video Player" [ref=f99e3]
+              - generic [ref=f99e6]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f99e7] [cursor=pointer]
+                    - generic [ref=f99e9]:
+                      - generic:
+                        - generic [ref=f99e12]:
+                          - generic [ref=f99e14]:
+                            - generic [ref=f99e15]:
+                              - link "#3 Playwright with Azure DevOps Pipeline Tutorial Complete Guide" [ref=f99e16] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=Exx2M5Pz06g
+                              - link "Testers Talk" [ref=f99e17] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                                - generic [ref=f99e18]: Testers Talk
+                            - generic [ref=f99e19]:
+                              - button [ref=f99e20] [cursor=pointer]
+                              - generic [ref=f99e22]:
+                                - generic: Testers Talk
+                                - generic: 30K subscribers
+                          - generic [ref=f99e23]:
+                            - button "Unmute" [ref=f99e25] [cursor=pointer]:
+                              - img "Unmute" [ref=f99e26]
+                            - button "No captions are available for this video" [ref=f99e29] [cursor=pointer]:
+                              - generic [ref=f99e32]:
+                                - img
+                        - generic [ref=f99e33]:
+                          - generic:
+                            - button "Rewind 10 seconds"
+                            - generic:
+                              - button "Play video":
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                            - button "Fast forward 10 seconds"
+                      - button "Enter full screen" [ref=f99e40] [cursor=pointer]
+                      - slider "Seek slider" [ref=f99e44] [cursor=pointer]
+                      - link "Watch on YouTube" [ref=f99e55] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=Exx2M5Pz06g
+                        - img [ref=f99e59]:
+                          - generic [ref=f99e61]:
+                            - img

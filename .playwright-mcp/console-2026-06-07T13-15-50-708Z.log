@@ -1,0 +1,4 @@
+[     256ms] [LOG] DOMContentLoaded: loggedIn = true @ https://bakkappan.github.io/Testers-Talk-Practice-Site/:2111
+[     296ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://bakkappan.github.io/Testers-Talk-Practice-Site/:0
+[    4046ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2 @ https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US._zUNmtSSQDM.2021.O/am=AAAAQA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywGsDwb0b_YfWRcmXFyX8kDoCAjtTw/m=r78Drb:1587
+[    7655ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bakkappan.github.io/favicon.ico:0
